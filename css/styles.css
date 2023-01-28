@@ -12,7 +12,10 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
 .link {
   text-decoration: none;
 }
@@ -29,6 +32,67 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.phone {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.mail:hover,
+.mail:focus {
+  color: #404bbf;
+}
+/* hero */
+/* .hero-box {
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+  background: #2e2f42;
+} */
+.hero {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
+.title-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* логотип */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -49,5 +113,5 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42;
+  color: #2e2f42;
 }
