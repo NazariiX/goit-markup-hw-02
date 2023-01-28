@@ -12,6 +12,17 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* логотип */
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -31,6 +42,5 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #000000;
 }
