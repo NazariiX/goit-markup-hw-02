@@ -13,18 +13,25 @@
   overflow: hidden;
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ol,
-ul {
+.list {
   list-style: none;
 }
-
+.menu-item {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 /* логотип */
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -34,7 +41,7 @@ ul {
   color: #4d5ae5;
 }
 .logo-end {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -42,5 +49,5 @@ ul {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #000000;
+  color: #2E2F42;
 }
