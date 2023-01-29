@@ -16,6 +16,7 @@
   --basic-color: #2e2f42;
   --second-color: #434455;
   --alt-color: #ffffff;
+  --active-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -35,6 +36,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--basic-color, #2e2f42);
+}
+.menu-item:hover,
+.menu-item:focus,
+.menu-item.current {
+  color: var(--active-color, #404bbf);
 }
 
 .phone {
